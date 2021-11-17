@@ -32,7 +32,6 @@ export default function OgImage() {
         />
         <div>
           <h5>DeepCore- Owner</h5>
-          'next/image'
         </div>
         <Text
           as="h1"
