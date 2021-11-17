@@ -18,6 +18,15 @@ export default function OgImage() {
       bgColor="brand.black"
       border="solid 5px #FF9D00"
     >
+      <Image
+        src="/get-og-image.png"
+        alt="OG-Image"
+        width={900}
+        height={500}
+      />
+      <div>
+        <h5>DeepCore- Owner</h5>
+      </div>
       <Flex
         as="section"
         w="100%"
@@ -26,15 +35,6 @@ export default function OgImage() {
         direction="column"
         justifyContent="center"
         m="0 auto">
-        <Image
-          src="/get-og-image.png"
-          alt="OG-Image"
-          width={900}
-          height={500}
-        />
-        <div>
-          <h5>DeepCore- Owner</h5>
-        </div>
         <Text
           as="h1"
           fontFamily="heading"
