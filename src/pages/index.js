@@ -27,8 +27,10 @@ export default function OgImage() {
         justifyContent="center"
         m="0 auto">
         <Image
-          src="get-og-image.png"
+          src="/get-og-image.png"
           alt="OG-Image"
+          width={900}
+          height={500}
         />
         <div>
           <h5>DeepCore- Owner</h5>
