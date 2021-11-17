@@ -1,5 +1,6 @@
 import { Flex, Text } from "@chakra-ui/layout";
 import { useRouter } from "next/router";
+import Image from 'next/image'
 
 
 export default function OgImage() {
@@ -25,10 +26,13 @@ export default function OgImage() {
         direction="column"
         justifyContent="center"
         m="0 auto">
+        <Image
+          src="get-og-image.png"
+          alt="OG-Image"
+        />
         <div>
-          <img src="get-og-image.png" />
           <h5>DeepCore- Owner</h5>
-
+          'next/image'
         </div>
         <Text
           as="h1"
