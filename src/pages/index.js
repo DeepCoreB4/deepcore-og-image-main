@@ -33,7 +33,7 @@ export default function OgImage() {
           height={630}
         />
         <div>
-          <h5>DeepCore- Owner</h5>
+          <h5>nr.1</h5>
         </div>
         <Text
           as="h1"
@@ -56,7 +56,7 @@ export default function OgImage() {
           my={5}
           borderBottom="solid 2px #959595"
         >
-          article
+          Blendit4 CH
         </Text>
         <Flex direction="column" w="fit-content">
           <Text

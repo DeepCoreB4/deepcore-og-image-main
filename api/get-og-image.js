@@ -21,11 +21,11 @@ cloudinary.v2.config({
 
 // allowed origins
 const allowedOrigins = [
-    'https://edgar-cuppari.vercel.app/',
-    `https://edgar-cuppari.vercel.app/writing/`,
     'https://edgar-cuppari-dev.vercel.app/',
     `https://edgar-cuppari-dev.vercel.app/writing/`,
-    'https://deepcore-og-image.vercel.app/',
+    'https://edgar-cuppari-dev.vercel.app/',
+    `http://edgar-cuppari-dev.vercel.app/projects/`,
+    'http://edgar-cuppari-dev.vercel.app/',
     'http://localhost:3000/'
 ]
 // Initializing the cors middleware
@@ -69,7 +69,7 @@ const allowCors = fn => async (req, res) => {
     return await fn(req, res)
 }
 
-const BASE_URL = 'https://deepcore-og-image.vercel.app'
+const BASE_URL = 'https://cuppari-dev.vercel.app/'
 
 async function handler(req, res) {
     // params posted to function
