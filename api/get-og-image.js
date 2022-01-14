@@ -25,7 +25,7 @@ const allowedOrigins = [
     `https://edgar-cuppari-dev.vercel.app/writing/`,
     'https://edgar-cuppari-dev.vercel.app/',
     `http://edgar-cuppari-dev.vercel.app/projects/`,
-    'http://edgar-cuppari-dev.vercel.app/',
+    'https://cuppari-dev-og-image.vercel.app/',
     'http://localhost:3000/'
 ]
 // Initializing the cors middleware
@@ -69,7 +69,7 @@ const allowCors = fn => async (req, res) => {
     return await fn(req, res)
 }
 
-const BASE_URL = 'https://cuppari-dev.vercel.app/'
+const BASE_URL = 'https://edgar-cuppari-dev.vercel.app/'
 
 async function handler(req, res) {
     // params posted to function
@@ -105,7 +105,7 @@ async function handler(req, res) {
         const browser = await playwright.chromium.launch({
             args: chromium.args,
             // args: ["--no-sandbox", "--disable-setuid-sandbox", "--disable-dev-shm-usage"],
-            // executablePath: await chrome.executablePath || "C:\\Users\\richa\\AppData\\Local\\ms-playwright\\chromium-907428\\chrome-win\\chrome.exe",
+            // executablePath: await chrome.executablePath || "C:\\Users\\ed\\AppData\\Local\\ms-playwright\\chromium-907428\\chrome-win\\chrome.exe",
             // executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
             executablePath: await chromium.executablePath,
             headless: true,
