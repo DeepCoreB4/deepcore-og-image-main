@@ -16,18 +16,18 @@ export default function OgImage() {
       w={1200}
       h={630}
       bgColor="brand.black"
-      border="solid 5px #FF9D00"
+      
     >
       <Flex
         as="section"
         w="100%"
-        maxW={900}
+        maxW={1050}
         h="100%"
         direction="column"
         justifyContent="center"
         m="0 auto">
         <Image
-          src="/get-og-image.png"
+          src="/get-og-image.jpeg"
           alt="OG-Image"
           width={1200}
           height={630}
@@ -56,7 +56,7 @@ export default function OgImage() {
           my={5}
           borderBottom="solid 2px #959595"
         >
-          Blendit4 CH
+          Frontend Webdesign/ App Development/ 
         </Text>
         <Flex direction="column" w="fit-content">
           <Text
